@@ -94,7 +94,7 @@
 (responds-to 'act (action-symbol debate-log guiding-question)
 (let (content (generate-response-content name stance mbti action-symbol debate-log guiding-question))
 (let (summary (generate-tldr-summary content))
-(let (full-content (concat content "\n\n**简言之**：" summary))
+(let (full-content (concat content "\n\n简言之：" summary))
 (let (formatted-response (format "【%s】【%s】：%s" name action-symbol full-content))
 (display formatted-response)
 (return formatted-response)))))))
