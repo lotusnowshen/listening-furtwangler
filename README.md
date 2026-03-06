@@ -4,6 +4,18 @@
 
 当前仓库既包含原始 prompt，也包含已经转换好的 Codex skill。
 
+## 来源说明
+
+本项目中的 [prompt.md](/Users/guochunyang/anzo/listening-furtwangler/prompt.md) 参考了李继刚公开分享的这份 gist：
+
+- https://gist.github.com/lijigang/a8f9cf12985d474cef15cda63f4e1892
+
+本仓库在此基础上做了适配与整理，包括：
+
+- 转写为本地 `prompt.md`
+- 转换为 `skills/roundtable-seminar/SKILL.md`
+- 补充会议记录规范与 transcript 整理规范
+
 ## 项目内容
 
 - [prompt.md](/Users/guochunyang/anzo/listening-furtwangler/prompt.md)
